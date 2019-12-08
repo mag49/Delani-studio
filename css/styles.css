@@ -7,7 +7,19 @@ body{
     padding:0;
 }
 .jumbotron{
-    background-image: url("./images/foot.jpg");
+    background-image: url("../images/foot.jpg");
     background-size: cover;
     height: 668px;
+}
+.services{
+    background-image:url("../image/laptop.jpg");
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
