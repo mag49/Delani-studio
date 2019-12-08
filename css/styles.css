@@ -1,0 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+*{box-sizing:boder-box}
+body{
+    margin:0;
+    padding:0;
+}
+.jumbotron{
+    background-image: url("./images/foot.jpg");
+    background-size: cover;
+    height: 668px;
+}
