@@ -29,8 +29,6 @@ h2{
 p{
     text-align: center;
 }
-#portfolio{
-    justify-content: space-between;
 }
 .logo{
     padding-left: 35%;
@@ -46,7 +44,7 @@ p{
     color:white;
     margin-left: 135%;
 }
-#aboutus{
+.aboutus{
     padding-top:5%;
 }
  h6{
@@ -60,4 +58,27 @@ h4{
 }
 #we-do{
     padding-top:5%;
+}
+/* #contact{
+background-image: url(gear.jpg);
+background-size:cover;
+height:300px;
+} */
+.hidden-what-we-do{
+    display:none;
+}
+.footer{
+   
+
+    background-image: url(gear.jpg);
+    background-size: cover;
+   
+   margin-left: 18%;
+    width: 70%;
+    
+    height: 300px;
+   
+}
+.footer img{
+    width: 100%;
 }
