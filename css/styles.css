@@ -5,15 +5,19 @@ html{
 body{
     margin:0;
     padding:0;
-    background-image:url("./image/laptop.jpg");
+    
 }
 .header{
     background-image: url(foot.jpg);
     background-size: cover;
     height: 668px;
 }
-.services{
- 
+#services{
+    background-image:url(laptop.jpg);
+    background-size:cover;
+    height:300px;
+    padding-top:5%;
+    color:white;
 }
 h1{
     text-align: center;
@@ -35,7 +39,7 @@ p{
 }
 .row2 h2{
     color:white;
-    padding-left:10%; 
+    text-align: center; 
 }
 .row1 h1{
     color:white;
@@ -43,4 +47,13 @@ p{
 }
 #aboutus{
     padding-top:5%;
+}
+ h6{
+    padding-left: 40%;
+    font-weight:bold;
+    font-size:30px;
+}
+h4{
+    color:white;
+    padding-left: 40%;
 }
