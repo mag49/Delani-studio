@@ -5,14 +5,15 @@ html{
 body{
     margin:0;
     padding:0;
+    background-image:url("./image/laptop.jpg");
 }
-.jumbotron{
-    background-image: url("../images/foot.jpg");
+.header{
+    background-image: url(foot.jpg);
     background-size: cover;
     height: 668px;
 }
 .services{
-    background-image:url("../image/laptop.jpg");
+ 
 }
 h1{
     text-align: center;
@@ -25,4 +26,17 @@ p{
 }
 #portfolio{
     justify-content: space-between;
+}
+.logo{
+    padding-left: 35%;
+}
+.row3 p{
+    color:white;
+}
+.row2 h2{
+    color:white;
+}
+.row1 h1{
+    color:white;
+    margin-left: 130%;
 }
