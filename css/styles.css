@@ -35,8 +35,12 @@ p{
 }
 .row2 h2{
     color:white;
+    padding-left:10%; 
 }
 .row1 h1{
     color:white;
-    margin-left: 130%;
+    margin-left: 135%;
+}
+#aboutus{
+    padding-top:5%;
 }
