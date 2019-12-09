@@ -67,7 +67,7 @@ height:300px;
 .hidden-what-we-do{
     display:none;
 }
-.footer{
+.contact{
    
 
     background-image: url(gear.jpg);
@@ -78,7 +78,22 @@ height:300px;
     
     height: 300px;
    
+}.textarea{
+    width:100%;
+    padding:12px 20px;
+    text-align: center
 }
-.footer img{
-    width: 100%;
+#name{
+    width:40%;
+    
+}
+#email{
+    width:40%;
+}
+#message{
+    width:80%;
+}
+h7{
+    color:white;
+    margin-left:35%;
 }
