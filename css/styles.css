@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-*{box-sizing:boder-box}
 body{
     margin:0;
     padding:0;
@@ -29,7 +28,7 @@ h2{
 p{
     text-align: center;
 }
-}
+
 .logo{
     padding-left: 35%;
 }
@@ -46,6 +45,7 @@ p{
 }
 .aboutus{
     padding-top:5%;
+    padding-bottom:50px;
 }
  h6{
     padding-left: 40%;
@@ -64,21 +64,19 @@ background-image: url(gear.jpg);
 background-size:cover;
 height:300px;
 } */
+
 .hidden-what-we-do{
     display:none;
 }
-.contact{
-   
 
+.contact{
     background-image: url(gear.jpg);
     background-size: cover;
    
-   margin-left: 18%;
-    width: 70%;
+    width: 100%;
     
-    height: 300px;
-   
-}.textarea{
+}
+.textarea{
     width:100%;
     padding:12px 20px;
     text-align: center
@@ -91,9 +89,34 @@ height:300px;
     width:40%;
 }
 #message{
-    width:80%;
+    width:70%;
+    height:20;
 }
 h7{
     color:white;
     margin-left:35%;
+}
+.footer{
+    padding-top: 10%;
+}
+.contact{
+    margin-bottom:;
+}
+img{
+    cursor: pointer;
+}
+.header{
+    color:white;
+    text-align:center;
+    padding-top:200px;
+}
+ 
+h3{
+    font-size:18px;
+}
+.portfolio{
+margin-top: 10%;
+position:relative;
+text-align: center;
+margin-bottom:5%;
 }
