@@ -61,7 +61,7 @@ function validateForm() {
     var name = document.getElementById("name").Value;
     var email = document.getElementById("email").Value;
     var message = document.getElementById("message").Value;
-    if (name == "" || email == "" || message == "") {
+    if (name == "" || email == "" || message == '') {
         alert("wrong info");
     }
     else {
