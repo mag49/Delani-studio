@@ -9,13 +9,14 @@ body{
 .header{
     background-image: url(foot.jpg);
     background-size: cover;
-    height: 668px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 #services{
     background-image:url(laptop.jpg);
     background-size:cover;
-    height:300px;
-    padding-top:5%;
+    width:80%;
+    padding-top:10%;
     color:white;
 }
 h1{
@@ -43,18 +44,18 @@ p{
     color:white;
     margin-left: 135%;
 }
-.aboutus{
+.about{
     padding-top:5%;
-    padding-bottom:50px;
+    padding-bottom: 3%;
 }
  h6{
-    padding-left: 40%;
+    padding-left:45%;
     font-weight:bold;
     font-size:30px;
 }
 h4{
     color:white;
-    padding-left: 40%;
+    padding-left: 45%;
 }
 #we-do{
     padding-top:5%;
@@ -72,25 +73,32 @@ height:300px;
 .contact{
     background-image: url(gear.jpg);
     background-size: cover;
+    
    
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     
 }
-.textarea{
+.validate{
     width:100%;
     padding:12px 20px;
-    text-align: center
+    text-align: center;
 }
 #name{
     width:40%;
+    background:transparent;
     
 }
 #email{
     width:40%;
+    background: transparent;
+    color:white;
 }
 #message{
     width:70%;
     height:20;
+    background: transparent;
+
 }
 h7{
     color:white;
@@ -99,9 +107,7 @@ h7{
 .footer{
     padding-top: 10%;
 }
-.contact{
-    margin-bottom:;
-}
+
 img{
     cursor: pointer;
 }
@@ -114,9 +120,26 @@ img{
 h3{
     font-size:18px;
 }
-.portfolio{
-margin-top: 10%;
-position:relative;
-text-align: center;
-margin-bottom:5%;
+.imagehover{
+    justify-content:space-around;
+
+}
+.port {
+    padding-top: 3%;
+    margin-left: 8%;
+    margin-right:8%;
+}
+.text{
+position: absolute;
+top: 50%;
+transform:translate(-50%,-50%);
+border :4px solid white;
+padding :20px,20px;
+left:50%;
+display: none;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 10%;
+padding-top: 10%;
+color: white;
 }
